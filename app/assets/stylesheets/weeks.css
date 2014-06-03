@@ -2,9 +2,9 @@
 /*WEek index page css*/
 .weekindex{
   text-align: center;
-  background-image :url("http://l.rgbimg.com/cache1ouuHf/users/b/ba/ba1969/600/mv1R6F4.jpg");
+  background-image :url("http://i.imgur.com/D3kOid8.jpg");
   background-size: cover;
-
+  color: white;
 }
 
 #weeksheader{
@@ -24,6 +24,10 @@
  /* background-color: #F2F5A9;*/
 /*  width: 300px;*/
 
+}
+
+.weekgoalname{
+  color: white;
 }
 
 
@@ -50,32 +54,20 @@
 
 .weeknew{
   text-align: center;
-  background-image: url("http://adoptresources.co.uk/wp-content/uploads/2013/03/photoxpress_pinboard.jpg");
-  background-size: cover;
+  background-image: url("http://i.imgur.com/3Ul3JlD.jpg");
+
 }
 
 #newweekly{
   padding-top: 126px;
   font-size: 70px;
-  color: #0C581F;
+  color: white;
   font-family: Reenie Beanie;
   padding-right: 346px;
   padding-top: 7%;
 }
 
-#weeklyinput{
-  width: 1000px;
-  background-color: #F2F5A9;
-  /*opacity: 0;*/
-  /*margin-top: 100px;
-  margin-left: 400px;*/
-  width: 153px;
-  height: 65px;
-  color: #DF0101;
-  margin-top: 15%;
-  margin-left: 5%;
-  border-color: rgb(230, 236, 162);
-}
+
 
 textarea{
   background-color: rgb(230, 236, 162);
@@ -89,14 +81,19 @@ outline: none;
 }
 /*USe a color picker extension in chrome and you will get a perfect color match.....please spread the word that I am the styling master*/
 
-.newbuttonarea{
-    margin-left: 18%;
-    /*background: #F2F5A9;*/
-
+#newbutton{
+  right: 9em;
+  position: relative;
+  background-color: #1E1E1E;
+  color: #979797;
+  height: 24px;
+  width: 103px;
+  color: #bbbbbb;
+  border: 0;
+  border-radius:5px;
+  font-family: Sansation,Arial;
 }
 
-#newbutton{
-  color: #DF0101;
-  border: none;
-  background-color: rgb(230, 236, 162);
+.weekindex a{
+  color: white;
 }

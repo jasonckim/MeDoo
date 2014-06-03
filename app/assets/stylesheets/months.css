@@ -34,6 +34,14 @@
   	-moz-transform:rotate(6deg);
 }
 
+#month_2, #month_6, #month_7, #month_12 {
+	background-color: #cfc;
+}
+
+#month_3, #month_4, #month_8, #month_10 {
+	background-color: #ccf
+}
+
 th {
   	padding: 0.5rem;
   	text-align: center;

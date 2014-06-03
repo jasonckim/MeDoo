@@ -36,7 +36,7 @@ weekindex<% end %>
 
   <% if @month_week_goals.where(week_num: week[:week_num], year: week[:year]) != nil %>
     <% @month_week_goals.where(week_num: week[:week_num], year: week[:year]).each do |goal| %>
-      <%= goal.weekly_goal_name %> <%= link_to "Edit", edit_goal_week_path(@master_goal, goal, month:@month)%><br>
+      <%= goal.weekly_goal_name %> <%= link_to "Edit", edit_goal_week_path(@master_goal, goal, month:@month) %><br>
     <% end %>
   <% end %>
   <%= link_to("Create New Weekly Goal", new_goal_week_path(@master_goal, week_num:week[:week_num],year:week[:year])) %>

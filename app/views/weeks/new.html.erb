@@ -1,14 +1,19 @@
 <% content_for :body_type do%>
 weeknew<% end %>
+
+
 <form action="<%=goal_weeks_path(@master_goal,month:@month,week_num:@week_num, year:@year)%>" method="post">
   <%= token_tag form_authenticity_token %>
 
  <div id ="newweekly"> New weekly goal:</div> 
 
-<input autofocus type="text" placeholder="What do you want to accomplish!" name="new_weekly_todo" id ="weeklyinput">
+<div class="form-group">
+	<div class="col-md-6">
+<input autofocus type="text" placeholder="Weekly goals, etc." name="new_weekly_todo" id ="weeklyinput" class="form-control">
+<br />
 
-<div class="newbuttonarea">
 <input type="submit" value="Submit" id ="newbutton"/>
+</div>
 </div>
  
 </form>

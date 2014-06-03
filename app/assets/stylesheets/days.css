@@ -66,10 +66,11 @@
 	text-align: center;
 	height: 35em;
 	max-height: 40em;
-	width: 12em;
-	max-width: 12em;
+	width: 11em;
+	max-width: 11em;
 	background-color: rgba(255, 255, 204, 0.5);
 	color: black;
+	margin-left: 2%;
 }
 
 #day_Tuesday{
@@ -78,11 +79,11 @@
 	text-align: center;
 	height: 35em;
 	max-height: 40em;
-	width: 12em;
-	max-width: 12em;
+	width: 11em;
+	max-width: 11em;
 	background-color: rgba(255, 255, 204, 0.5);
 	color: black;
-	margin-left: 14%;
+	margin-left: 16%;
 }
 
 #day_Wednesday{
@@ -91,11 +92,11 @@
 	text-align: center;
 	height: 35em;
 	max-height: 40em;
-	width: 12em;
-	max-width: 12em;
+	width: 11em;
+	max-width: 11em;
 	background-color: rgba(255, 255, 204, 0.5);
 	color: black;
-	margin-left: 28%;
+	margin-left: 30%;
 }
 
 #day_Thursday{
@@ -104,11 +105,11 @@
 	text-align: center;
 	height: 35em;
 	max-height: 40em;
-	width: 12em;
-	max-width: 12em;
+	width: 11em;
+	max-width: 11em;
 	background-color: rgba(255, 255, 204, 0.5);
 	color: black;
-	margin-left: 42%;
+	margin-left: 44%;
 }
 
 #day_Friday{
@@ -117,11 +118,11 @@
 	text-align: center;
 	height: 35em;
 	max-height: 40em;
-	width: 12em;
-	max-width: 12em;
+	width: 11em;
+	max-width: 11em;
 	background-color: rgba(255, 255, 204, 0.5);
 	color: black;
-	margin-left: 56%;
+	margin-left: 58%;
 }
 
 #day_Saturday{
@@ -130,11 +131,11 @@
 	text-align: center;
 	height: 35em;
 	max-height: 40em;
-	width: 12em;
-	max-width: 12em;
+	width: 11em;
+	max-width: 11em;
 	background-color: rgba(255, 255, 204, 0.5);
 	color: black;
-	margin-left: 70%;
+	margin-left: 72%;
 }
 
 #day_Sunday{
@@ -143,11 +144,11 @@
 	text-align: center;
 	height: 35em;
 	max-height: 40em;
-	width: 12em;
-	max-width: 12em;
+	width: 11em;
+	max-width: 11em;
 	background-color: rgba(255, 255, 204, 0.5);
 	color: black;
-	margin-left: 84%;
+	margin-left: 86%;
 }
 
 
@@ -162,9 +163,9 @@
   background:#ffc;
   display:block;
   height:8em;
-  max-height: 10em;
+  max-height: 11em;
   width:8em;
-  max-width: 10em;
+  max-width: 11em;
   padding:1em;
   -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
   -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
