@@ -1,0 +1,97 @@
+=daysoftheweek($marginleft)
+  position: absolute
+  top: 13em
+  text-align: center
+  height: 35em
+  max-height: 40em
+  width: 11em
+  max-width: 11em
+  background-color: rgba(255, 255, 204, 0.5)
+  color: black
+  margin-left: $marginleft
+
+=backgroundtemplate($imageurl)
+  background-size: cover
+  color: white
+  background-image: url($imageurl)
+
+.daysindex
+  +backgroundtemplate("http://i.imgur.com/xAcdpU3.jpg")
+
+.daysnew
+  +backgroundtemplate("http://i.imgur.com/qGepgMr.jpg")
+
+=headers($position, $font, $marleft, $topsize)
+  position: $position
+  font-family: $font
+  margin-left: $marleft
+  top: $topsize
+
+#daysindexheader
+  +headers(absolute, 'Reenie Beanie', 40%, 1.5em)
+
+.daynavi
+  +headers(absolute, 'Reenie Beanie', 45%, 3.5em)
+  font-size: 30px
+
+#daysubmit
+  +headers(relative, 'Sansation', 0%, 1em)
+  background-color: #1E1E1E
+  color: #979797
+  height: 24px
+  width: 103px
+  color: #bbbbbb
+  border: 0
+  border-radius: 5px
+
+#daynewheader
+  color: white
+  font-family: "Droid Serif"
+
+.daynewform
+  top: 10em
+  position: relative
+
+#day_Monday
+  +daysoftheweek(2%)
+
+#day_Tuesday
+  +daysoftheweek(16%)
+
+#day_Wednesday
+  +daysoftheweek(30%)
+
+#day_Thursday
+  +daysoftheweek(44%)
+
+#day_Friday
+  +daysoftheweek(58%)
+
+#day_Saturday
+  +daysoftheweek(72%)
+
+#day_Sunday
+  +daysoftheweek(86%)
+
+$colors: 5px 5px 7px rgba(33, 33, 33, 0.7)
+$rotation: rotate(-6deg)
+
+.dayindexul .dayindexli
+  -webkit-transform: $rotation
+  -o-transform: $rotation
+  -moz-transform: $rotation
+  text-decoration: none
+  color: #000
+  background: #ffc
+  display: block
+  height: 8em
+  width: 8em
+  padding: 1em
+  -moz-box-shadow: $colors
+  -webkit-box-shadow: $colors
+  box-shadow: $colors
+  font-family: 'Oleo Script'
+  text-align: center
+
+.daytd
+  font-family: "Droid Serif"

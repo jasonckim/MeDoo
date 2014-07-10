@@ -16,6 +16,7 @@
  *= require_self
  */
 
+@import "days";
 
 .daysindex{
 	background-image: url("http://i.imgur.com/xAcdpU3.jpg");
