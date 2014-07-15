@@ -1,5 +1,21 @@
+/*.container-landing{
+	margin: 0 auto;
+	position: relative;
+	width: 700px;
+	height: 600px;
+	text-decoration:none;
+  	color:#000;
+  	background-color: rgba(238, 238, 238, 0.5);
+  	// background:rgba(33,33,33,.1);
+  	display:block;
+  	padding:1em;
+  	-moz-box-shadow:5px 5px 7px rgba(33,33,33,.7);
+  	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}*/
+
 .new{
-	background-image: url("http://i.imgur.com/7migqDY.jpg");
+	background-image: url("http://31.media.tumblr.com/d91942eddeeb832e44d7ac24196e0587/tumblr_n8gyrvGyzC1st5lhmo1_1280.jpg");
 	background-size: cover;
 	color: white;
 }

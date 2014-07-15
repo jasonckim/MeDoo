@@ -1,6 +1,7 @@
 <% content_for :body_type do%>
 new<% end %>
 
+<div class="container-landing">
 <div class="aboutlanding">
 	<h1 class="newtitle">MeDoo</h1>
 	<p><span id="organizer">ORGANIZER</span> / <span id="task"> TASK LIST</span></p>
@@ -28,5 +29,7 @@ new<% end %>
 	<div id="forgotbutton">
 	<p>Forgot your password? <span><%= link_to "Click here", new_password_path(resource_name), class: "btn btn-info"%></span></p>
 	</div>
-
+	</div>
+	
+</div>
 </div>

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     resources :weeks
 	resources :days
   end
-
+  
   root 'goals#index'
 
 end
